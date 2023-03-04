@@ -1,0 +1,93 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Weather</title>
+</head>
+
+<body>
+
+    <div class="site-content">
+        <div class="site-header">
+            <div class="container navbar navbar-expand-lg">
+                <div class="navbar-brand w-25 d-inline">
+                    <a href="#"><img src="images/logo@2x.png" alt=""></a>
+                    <a href="#" class="text-white text-decoration-none fw-bold">Weather</a>
+                </div>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-center">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">News</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Live Cameras</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Photos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa-solid fa-bars fs-6"></i>
+                </button>
+            </div>
+        </div>
+
+        <div class="hero" style="background-image: url(images/banner.png);">
+            <div class="container">
+                <form class="find-location">
+                    <input type="text" placeholder="Find your location..." id="search">
+                    <input type="button" value="Find" id="submit">
+                </form>
+
+            </div>
+        </div>
+
+        <div class="forecast-table ">
+            <div class="container">
+                <div class="forecast-container " id="forecast">
+
+                </div>
+            </div>
+        </div>
+
+
+
+        <footer class="site-footer">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="col-md-8">
+                        <form action="#" class="subscribe-form">
+                            <input type="text" placeholder="Enter your email to subscribe...">
+                            <input type="submit" value="Subscribe">
+                        </form>
+                    </div>
+                    <div class="col-md-3 col-md-offset-1">
+                        <div class="social-links d-flex">
+                            <a href="#" class="mx-1"><i class="fa-brands fa-facebook-f "></i></a>
+                            <a href="#" class="mx-1"><i class="fa-brands fa-twitter "></i></a>
+                            <a href="#" class="mx-1"><i class="fa-brands fa-google-plus"></i></a>
+                            <a href="#" class="mx-1"><i class="fa-brands fa-pinterest"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <p class="colophon">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+            </div>
+        </footer>
+    </div>
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
